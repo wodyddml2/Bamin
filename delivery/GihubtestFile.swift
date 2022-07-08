@@ -6,3 +6,4 @@
 //
 
 import Foundation
+print(4)
