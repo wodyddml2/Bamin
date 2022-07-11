@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  delivery
 //
 //  Created by J on 2022/07/11.
@@ -7,18 +7,14 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
-    @IBOutlet var cornerRadius: [UIImageView]!
-    
+class SecondViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        for i in cornerRadius {
-            i.layer.masksToBounds = true
-            i.layer.cornerRadius = 15
-            print("viewDidLoad")
-        }
+        print("viewDidLoad")
+
+        // Do any additional setup after loading the view.
     }
-    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         print("viewWillAppear")

@@ -11,7 +11,7 @@
         <!--배달-->
         <scene sceneID="dCM-Kp-4mE">
             <objects>
-                <viewController id="cC9-6q-5hN" customClass="ViewController" customModule="delivery" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cC9-6q-5hN" customClass="SecondViewController" customModule="delivery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QVa-O2-lwf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

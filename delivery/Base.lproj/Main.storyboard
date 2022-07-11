@@ -118,7 +118,6 @@
                                             <constraint firstAttribute="width" secondItem="B9u-0S-TgG" secondAttribute="height" multiplier="75:68" id="59x-5W-CFi"/>
                                             <constraint firstAttribute="bottom" secondItem="bsv-Uf-Kml" secondAttribute="bottom" id="NES-JN-VuF"/>
                                             <constraint firstItem="bsv-Uf-Kml" firstAttribute="top" secondItem="B9u-0S-TgG" secondAttribute="top" id="TpL-0N-1Gc"/>
-                                            <constraint firstAttribute="trailing" secondItem="bsv-Uf-Kml" secondAttribute="trailing" id="hXa-rP-5VP"/>
                                             <constraint firstItem="bsv-Uf-Kml" firstAttribute="leading" secondItem="B9u-0S-TgG" secondAttribute="leading" id="hmj-Hv-KGz"/>
                                         </constraints>
                                     </view>
