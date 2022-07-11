@@ -14,7 +14,7 @@
 		63329F932872CC69009EC247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63329F922872CC69009EC247 /* Assets.xcassets */; };
 		63329F962872CC69009EC247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63329F942872CC69009EC247 /* LaunchScreen.storyboard */; };
 		63329FA22872D794009EC247 /* SF-Compact-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 63329FA12872D794009EC247 /* SF-Compact-Display-Medium.otf */; };
-		633DE93B2877B70700E2426B /* GihubtestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633DE93A2877B70700E2426B /* GihubtestFile.swift */; };
+		633C5D01287C054A00CE6782 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633C5D00287C054A00CE6782 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		63329F952872CC69009EC247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63329F972872CC69009EC247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63329FA12872D794009EC247 /* SF-Compact-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Medium.otf"; sourceTree = "<group>"; };
-		633DE93A2877B70700E2426B /* GihubtestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GihubtestFile.swift; sourceTree = "<group>"; };
+		633C5D00287C054A00CE6782 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 				63329F892872CC68009EC247 /* AppDelegate.swift */,
 				63329F8B2872CC68009EC247 /* SceneDelegate.swift */,
 				63329F8D2872CC68009EC247 /* ViewController.swift */,
-				633DE93A2877B70700E2426B /* GihubtestFile.swift */,
+				633C5D00287C054A00CE6782 /* FirstViewController.swift */,
 				63329F8F2872CC68009EC247 /* Main.storyboard */,
 				63329F922872CC69009EC247 /* Assets.xcassets */,
 				63329F942872CC69009EC247 /* LaunchScreen.storyboard */,
@@ -154,9 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				63329F8E2872CC68009EC247 /* ViewController.swift in Sources */,
-				633DE93B2877B70700E2426B /* GihubtestFile.swift in Sources */,
 				63329F8A2872CC68009EC247 /* AppDelegate.swift in Sources */,
 				63329F8C2872CC68009EC247 /* SceneDelegate.swift in Sources */,
+				633C5D01287C054A00CE6782 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
