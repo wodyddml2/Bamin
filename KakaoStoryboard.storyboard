@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Second View Controller-->
+        <!--kakao-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
                 <viewController id="Y6W-OH-hqX" customClass="SecondViewController" customModule="delivery" customModuleProvider="target" sceneMemberID="viewController">
@@ -21,13 +21,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avocado" translatesAutoresizingMaskIntoConstraints="NO" id="D5b-6Q-ALl">
-                                <rect key="frame" x="155.5" y="443.5" width="103.5" height="103.5"/>
+                                <rect key="frame" x="155.5" y="394.5" width="103.5" height="103.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="D5b-6Q-ALl" secondAttribute="height" id="wDZ-px-K04"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EHl-Xl-8Gy">
-                                <rect key="frame" x="155.5" y="443.5" width="103.5" height="103.5"/>
+                                <rect key="frame" x="155.5" y="394.5" width="103.5" height="103.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
@@ -36,11 +36,11 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jwX-C5-ihS">
-                                <rect key="frame" x="0.0" y="636.5" width="414" height="259.5"/>
+                                <rect key="frame" x="0.0" y="587.5" width="414" height="308.5"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Qj-eP-FmL">
-                                <rect key="frame" x="252" y="671" width="42" height="40"/>
+                                <rect key="frame" x="252" y="622" width="42" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="3Qj-eP-FmL" secondAttribute="height" id="zGh-fY-b5Y"/>
                                 </constraints>
@@ -62,7 +62,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ckr-ac-1rr">
-                                <rect key="frame" x="120" y="673" width="39" height="38.5"/>
+                                <rect key="frame" x="120" y="624" width="39" height="38.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Ckr-ac-1rr" secondAttribute="height" id="i3q-cJ-DaX"/>
                                 </constraints>
@@ -81,7 +81,7 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t6M-cd-WF2">
-                                <rect key="frame" x="197" y="562" width="20" height="21"/>
+                                <rect key="frame" x="197" y="513" width="20" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -113,9 +113,51 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="3Qj-eP-FmL" secondAttribute="trailing" constant="120" id="xCu-dS-78Q"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="kakao" id="yUH-te-Dxq">
+                        <imageReference key="image" image="message.fill" catalog="system" renderingMode="hierarchical-single">
+                            <hierarchicalColors>
+                                <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color systemColor="secondaryLabelColor"/>
+                                <color systemColor="tertiaryLabelColor"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="EzF-kd-jEc">
                         <barButtonItem key="backBarButtonItem" title=" " id="iI8-oF-vGE"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="HAp-FI-6wN">
+                            <imageReference key="image" image="clear" catalog="system" renderingMode="hierarchical-single">
+                                <hierarchicalColors>
+                                    <color white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color systemColor="secondaryLabelColor"/>
+                                    <color systemColor="tertiaryLabelColor"/>
+                                </hierarchicalColors>
+                            </imageReference>
+                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Item" id="0Te-Hj-ykh">
+                                <imageReference key="image" image="star.circle" catalog="system" renderingMode="hierarchical-single">
+                                    <hierarchicalColors>
+                                        <color white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color systemColor="secondaryLabelColor"/>
+                                        <color systemColor="tertiaryLabelColor"/>
+                                    </hierarchicalColors>
+                                </imageReference>
+                            </barButtonItem>
+                            <barButtonItem title="Item" id="oiK-dz-CTS">
+                                <imageReference key="image" image="wonsign.circle" catalog="system" renderingMode="hierarchical-single">
+                                    <hierarchicalColors>
+                                        <color white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color systemColor="secondaryLabelColor"/>
+                                        <color systemColor="tertiaryLabelColor"/>
+                                    </hierarchicalColors>
+                                </imageReference>
+                                <connections>
+                                    <segue destination="jHs-uT-u6P" kind="show" id="EKm-rk-hJt"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="kakaoImage" destination="D5b-6Q-ALl" id="LFQ-3v-UjJ"/>
                         <outlet property="opacityView" destination="jwX-C5-ihS" id="cXC-h6-hCr"/>
@@ -123,7 +165,90 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1042.0289855072465" y="107.8125"/>
+            <point key="canvasLocation" x="1039" y="108"/>
+        </scene>
+        <!--친구송금⌽-->
+        <scene sceneID="rxT-3U-Z4c">
+            <objects>
+                <viewController id="jHs-uT-u6P" customClass="KakaomoneyViewController" customModule="delivery" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="K9w-Kr-J3s">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kakaomoney" translatesAutoresizingMaskIntoConstraints="NO" id="Xab-Ll-gdh">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avocado" translatesAutoresizingMaskIntoConstraints="NO" id="pwD-Pu-T0v">
+                                <rect key="frame" x="40" y="106" width="41.5" height="41.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="pwD-Pu-T0v" secondAttribute="height" multiplier="1:1" id="ALQ-Gk-7aA"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t1F-ID-7ge">
+                                <rect key="frame" x="91.5" y="116" width="20.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이*용" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n9R-fh-FSk">
+                                <rect key="frame" x="337" y="116" width="37" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oSz-xb-Pmq">
+                                <rect key="frame" x="40" y="167.5" width="334" height="53.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="페이머니: $$ " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R7h-5d-0Gd">
+                                <rect key="frame" x="40" y="229" width="93" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner03" translatesAutoresizingMaskIntoConstraints="NO" id="e8H-Hq-8F2">
+                                <rect key="frame" x="50" y="280" width="314" height="89"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="e8H-Hq-8F2" secondAttribute="height" multiplier="314:89" id="NNF-bP-k3R"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6LO-bo-J13"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="oSz-xb-Pmq" firstAttribute="leading" secondItem="6LO-bo-J13" secondAttribute="leading" constant="40" id="23j-62-ldQ"/>
+                            <constraint firstItem="e8H-Hq-8F2" firstAttribute="top" secondItem="R7h-5d-0Gd" secondAttribute="bottom" constant="30" id="62H-Hj-3bc"/>
+                            <constraint firstItem="R7h-5d-0Gd" firstAttribute="leading" secondItem="6LO-bo-J13" secondAttribute="leading" constant="40" id="7Ph-8D-NkF"/>
+                            <constraint firstItem="e8H-Hq-8F2" firstAttribute="leading" secondItem="6LO-bo-J13" secondAttribute="leading" constant="50" id="7mc-AY-lSb"/>
+                            <constraint firstItem="t1F-ID-7ge" firstAttribute="width" secondItem="pwD-Pu-T0v" secondAttribute="width" multiplier="0.5" id="DUj-WU-D6g"/>
+                            <constraint firstAttribute="trailing" secondItem="Xab-Ll-gdh" secondAttribute="trailing" id="J83-d2-0oE"/>
+                            <constraint firstItem="6LO-bo-J13" firstAttribute="trailing" secondItem="n9R-fh-FSk" secondAttribute="trailing" constant="40" id="LIy-9I-pQS"/>
+                            <constraint firstItem="pwD-Pu-T0v" firstAttribute="top" secondItem="6LO-bo-J13" secondAttribute="top" constant="18" id="NZg-qe-V7d"/>
+                            <constraint firstItem="Xab-Ll-gdh" firstAttribute="leading" secondItem="K9w-Kr-J3s" secondAttribute="leading" id="OeZ-U0-jrw"/>
+                            <constraint firstItem="pwD-Pu-T0v" firstAttribute="width" secondItem="Xab-Ll-gdh" secondAttribute="width" multiplier="0.1" id="OyA-f8-Oh5"/>
+                            <constraint firstItem="t1F-ID-7ge" firstAttribute="centerY" secondItem="pwD-Pu-T0v" secondAttribute="centerY" id="QYW-2Z-agu"/>
+                            <constraint firstItem="6LO-bo-J13" firstAttribute="trailing" secondItem="e8H-Hq-8F2" secondAttribute="trailing" constant="50" id="UHb-Ka-Dh9"/>
+                            <constraint firstAttribute="bottom" secondItem="Xab-Ll-gdh" secondAttribute="bottom" id="Y14-dY-eyF"/>
+                            <constraint firstItem="oSz-xb-Pmq" firstAttribute="height" secondItem="Xab-Ll-gdh" secondAttribute="height" multiplier="0.06" id="YEN-BT-NrR"/>
+                            <constraint firstItem="n9R-fh-FSk" firstAttribute="centerY" secondItem="pwD-Pu-T0v" secondAttribute="centerY" id="usq-6U-fpQ"/>
+                            <constraint firstItem="pwD-Pu-T0v" firstAttribute="leading" secondItem="6LO-bo-J13" secondAttribute="leading" constant="40" id="vUh-nE-SLf"/>
+                            <constraint firstItem="t1F-ID-7ge" firstAttribute="leading" secondItem="pwD-Pu-T0v" secondAttribute="trailing" constant="10" id="wNP-Gb-LpF"/>
+                            <constraint firstItem="oSz-xb-Pmq" firstAttribute="top" secondItem="pwD-Pu-T0v" secondAttribute="bottom" constant="20" id="wsi-9B-nfn"/>
+                            <constraint firstItem="6LO-bo-J13" firstAttribute="trailing" secondItem="oSz-xb-Pmq" secondAttribute="trailing" constant="40" id="xeZ-WJ-LNh"/>
+                            <constraint firstItem="e8H-Hq-8F2" firstAttribute="centerX" secondItem="Xab-Ll-gdh" secondAttribute="centerX" id="yMS-ix-ThD"/>
+                            <constraint firstItem="R7h-5d-0Gd" firstAttribute="top" secondItem="oSz-xb-Pmq" secondAttribute="bottom" constant="8" symbolic="YES" id="yrf-ta-Gqk"/>
+                            <constraint firstItem="Xab-Ll-gdh" firstAttribute="top" secondItem="K9w-Kr-J3s" secondAttribute="top" id="yru-Tx-UJp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="친구송금⌽" id="PCV-Wo-VDr"/>
+                    <connections>
+                        <outlet property="kakaoImage" destination="pwD-Pu-T0v" id="Cyf-eE-f2z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lRO-JZ-zHK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2107.2463768115945" y="-143.30357142857142"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wkG-pJ-y4r">
@@ -150,7 +275,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ovu-NA-TEg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1916" y="108"/>
+            <point key="canvasLocation" x="2083" y="538"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Wnz-mT-04G">
@@ -160,6 +285,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1I3-Is-kzy">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -174,8 +302,13 @@
     <resources>
         <image name="avocado" width="640" height="480"/>
         <image name="background" width="640" height="456"/>
+        <image name="banner03" width="909" height="510"/>
+        <image name="clear" catalog="system" width="128" height="114"/>
+        <image name="kakaomoney" width="254.5" height="137"/>
         <image name="message.fill" catalog="system" width="128" height="113"/>
         <image name="phone.arrow.down.left.fill" catalog="system" width="128" height="115"/>
+        <image name="star.circle" catalog="system" width="128" height="121"/>
+        <image name="wonsign.circle" catalog="system" width="128" height="121"/>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
