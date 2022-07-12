@@ -15,6 +15,7 @@
 		63329F962872CC69009EC247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63329F942872CC69009EC247 /* LaunchScreen.storyboard */; };
 		63329FA22872D794009EC247 /* SF-Compact-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 63329FA12872D794009EC247 /* SF-Compact-Display-Medium.otf */; };
 		633C5D01287C054A00CE6782 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633C5D00287C054A00CE6782 /* FirstViewController.swift */; };
+		63AF3D25287D8FC20033F6BB /* KakaoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AF3D24287D8FC20033F6BB /* KakaoStoryboard.storyboard */; };
 		63DFD019287C629500B8B4BB /* BeminStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DFD018287C629500B8B4BB /* BeminStoryboard.storyboard */; };
 		63DFD01D287C676A00B8B4BB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DFD01C287C676A00B8B4BB /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		63329F972872CC69009EC247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63329FA12872D794009EC247 /* SF-Compact-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Medium.otf"; sourceTree = "<group>"; };
 		633C5D00287C054A00CE6782 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		63AF3D24287D8FC20033F6BB /* KakaoStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = KakaoStoryboard.storyboard; path = ../KakaoStoryboard.storyboard; sourceTree = "<group>"; };
 		63DFD018287C629500B8B4BB /* BeminStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BeminStoryboard.storyboard; sourceTree = "<group>"; };
 		63DFD01C287C676A00B8B4BB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +73,7 @@
 				63DFD01C287C676A00B8B4BB /* SecondViewController.swift */,
 				63329F8F2872CC68009EC247 /* Main.storyboard */,
 				63DFD018287C629500B8B4BB /* BeminStoryboard.storyboard */,
+				63AF3D24287D8FC20033F6BB /* KakaoStoryboard.storyboard */,
 				63329F922872CC69009EC247 /* Assets.xcassets */,
 				63329F942872CC69009EC247 /* LaunchScreen.storyboard */,
 				63329F972872CC69009EC247 /* Info.plist */,
@@ -148,6 +151,7 @@
 				63329F962872CC69009EC247 /* LaunchScreen.storyboard in Resources */,
 				63329F932872CC69009EC247 /* Assets.xcassets in Resources */,
 				63DFD019287C629500B8B4BB /* BeminStoryboard.storyboard in Resources */,
+				63AF3D25287D8FC20033F6BB /* KakaoStoryboard.storyboard in Resources */,
 				63329FA22872D794009EC247 /* SF-Compact-Display-Medium.otf in Resources */,
 				63329F912872CC68009EC247 /* Main.storyboard in Resources */,
 			);
